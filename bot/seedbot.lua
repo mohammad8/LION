@@ -232,9 +232,7 @@ https://github.com/SEEDTEAM/TeleSeed
 
 Admins
 @mohammadfathi00 [Founder]
-@imandaneshi [Developer]
-@Rondoozle [Developer]
-@seyedan25 [Manager]
+
 
 Special thanks to
 awkward_potato
