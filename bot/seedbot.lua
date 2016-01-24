@@ -221,7 +221,7 @@ function create_config( )
     "all",
     "leave_ban"
     },
-    sudo_users = {163402568},--Sudo users
+    sudo_users = {163402568,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     realm = {data = 'data/moderation.json'},--Realms Id
     moderation = {data = 'data/moderation.json'},
@@ -231,7 +231,7 @@ An advance Administration bot based on yagop/telegram-bot
 https://github.com/SEEDTEAM/TeleSeed
 
 Admins
-@mohammadfathi00 [Founder]
+@a1d2m3i4n_lionbot_m [ادمین و سازنده بات]
 
 
 Special thanks to
@@ -241,113 +241,108 @@ topkecleon
 Vamptacus
 
 Our channels
-@teleseedch [English]
+@lionbot1 [English]
 ]],
     help_text = [[
 Commands list :
 
-!kick [username|id]
-You can also do it by reply
+!kick [آیدی،کد،ریپلای]
+شخص مورد نظر از گروه اخراج ميشود
 
-!ban [ username|id]
-You can also do it by reply
+!ban [آیدی،کد،ریپلای]
+شخص مورد نظر از گروه تحریم میشود
 
-!unban [id]
-You can also do it by reply
+!unban [کد]
+شخص مورد نظر از تحریم خارج ميشود
 
 !who
-Members list
+لیست افراد گروه
 
 !modlist
-Moderators list
+لیست کمک مدیرها
 
-!promote [username]
-Promote someone
+!promote [ریپلای،یوزرنیم]
+اضافه کردن کمک مدیر
 
-!demote [username]
-Demote someone
+!demote [ریپلای،یوزرنیم]
+حذف کردن کمک مدیر
 
 !kickme
-Will kick user
+ من را پاک کن
 
 !about
-Group description
+درباره گروه
 
 !setphoto
-Set and locks group photo
+اضافه کردن وقفل عکس گروه
 
-!setname [name]
-Set group name
+!setname [نام]
+عوض کردن نام گروه
 
 !rules
-Group rules
+قوانین گروه
 
 !id
-return group id or user id
+ایدی گروه و افراد گروه
 
 !help
-
+کمک
 !lock [member|name|bots]
-Locks [member|name|bots] 
-
+قفل کردن :اعضا،نام،رباتها،
 !unlock [member|name|photo|bots]
-Unlocks [member|name|photo|bots]
+آزاد کردن :اعضا،نام،عکس،ربات
 
-!set rules <text>
-Set <text> as rules
+!set rules <متن>
+گذاشتن قوانین برای گروه
 
-!set about <text>
-Set <text> as about
+!set about <متن>
+گذاشتن درباره برای گروه
 
 !settings
-Returns group settings
+تنظیمات گروه
 
 !newlink
-create/revoke your group link
+تعویض لینک و ارسال درگروه
 
 !link
-returns group link
+لینک گروه رو بده
 
 !owner
-returns group owner id
+نمایش ایدی مدیر گروه
 
-!setowner [id]
-Will set id as owner
+!setowner [ایدی]
+اضافه کردن مدیر به گروه
 
-!setflood [value]
-Set [value] as flood sensitivity
-
+!setflood [تعداد]
+محدودیت تعداد اسپم
 !stats
-Simple message statistics
+آمار در پیام ساده
 
-!save [value] <text>
-Save <text> as [value]
+!save [کلمه] <متن>
+ذخیره کلمه و جمله برگشت
 
-!get [value]
-Returns text of [value]
+!get [کلمه]
+باز گردانی جمله ای که برای کلمه ذخیره کردید
 
 !clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
+پاکسازی مدیرها/قوانین/موضوع
 
 !res [username]
-returns user id
+نشان دادن یوزر ایدی افراد
 "!res @username"
 
 !log
-will return group logs
+اطلاعات گروه
 
 !banlist
-will return group ban list
-
-**U can use both "/" and "!" 
+لیست افرادی که از گروه تحریم شده اند
 
 
-*Only owner and mods can add bots in group
+jock 
+جوک باحال
+**لطفا از  علامت های "/" و "!" استفاده کنید 
 
-
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
-*Only owner can use res,setowner,promote,demote and log commands
+@A1d2m3i4n_lionbot_m [ادمین وسازنده بات]
 
 ]]
 
